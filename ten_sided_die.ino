@@ -104,7 +104,7 @@ void loop()
 
 void new_random() {
  
-  go_blinky(2); 
+  show_spinner(2); 
 
   int randy = random(1,8);
 
@@ -129,9 +129,9 @@ void show(int number) {
 }
 
 /**
- * Show the "loader" for a certain number of loops
+ * Show the "spinner" loading pattern for a certain number of loops
  */
-void go_blinky(int loops) {
+void show_spinner(int loops) {
 
   int loopcount = 0;
   int i = 0;
