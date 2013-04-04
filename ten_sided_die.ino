@@ -35,9 +35,12 @@ int answer_wait_time = 2000;
 /**
  * Numeral templates which relate the order of the above pins to a string containing
  * the pattern which matches its index (eg: index 0 contains the pattern for 0 as a string)
- */ 
+ */
 int pins[] = {dp1,dp2,dp3,dp4,dp5,dp6,dp7,dp8};
-char* numbers[] = {"01110111","01000001","00111011","01101011","01001101","01101110","01111110","01000011","01111111","01001111"};
+char* numbers[] = {
+  "01110111","01000001","00111011","01101011","01001101",
+  "01101110","01111110","01000011","01111111","01001111"
+};
 
 /**
  * "Meaning" of the above chars
